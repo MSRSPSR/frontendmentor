@@ -26,8 +26,8 @@ main {
   margin-top: 18vh;
   background: hsl(0, 0%, 100%);
   border-radius: 20px;
-  width: 325px;
-  height: 30rem;
+  width: 330px;
+  height: 32.5rem;
 
   display: flex;
   align-items: center;
@@ -36,7 +36,7 @@ main {
 }
 
 .card img {
-  margin-top: 2vh;
+  margin-top: -3vh;
   border-radius: 10px;
   width: 90%;
 }
