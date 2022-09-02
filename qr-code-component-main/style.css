@@ -26,8 +26,8 @@ main {
   margin-top: 18vh;
   background: hsl(0, 0%, 100%);
   border-radius: 20px;
-  width: 350px;
-  height: 32rem;
+  width: 325px;
+  height: 30rem;
 
   display: flex;
   align-items: center;
