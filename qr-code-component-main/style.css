@@ -21,8 +21,9 @@ main {
     width: 100%;
   }
 }
+
 .card {
-  margin-top: 20vh;
+  margin-top: 18vh;
   background: hsl(0, 0%, 100%);
   border-radius: 20px;
   width: 350px;
@@ -45,6 +46,7 @@ main {
   font-weight: 600;
   font-size: 24px;
 
+  margin-bottom: 0px;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
@@ -56,6 +58,7 @@ main {
   color: hsl(220, 15%, 55%);
   text-align: center;
 
+  margin-top: 10px;
   padding-left: 40px;
   padding-right: 40px;
 }
