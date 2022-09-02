@@ -2,18 +2,31 @@
 
 body {
   background: hsl(212, 45%, 89%);
+}
+
+main {
   display: flex;
 
   align-items: center;
   justify-content: center;
 }
 
+@media (max-width: 380px) {
+  .card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .card img {
+    width: 100%;
+  }
+}
 .card {
   margin-top: 20vh;
   background: hsl(0, 0%, 100%);
   border-radius: 20px;
   width: 350px;
-  height: 35rem;
+  height: 32rem;
 
   display: flex;
   align-items: center;
@@ -22,9 +35,9 @@ body {
 }
 
 .card img {
-  margin-top: -3vh;
+  margin-top: 2vh;
   border-radius: 10px;
-  width: 92.5%;
+  width: 90%;
 }
 
 .card h1 {
