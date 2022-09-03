@@ -1,0 +1,83 @@
+@import url("https://fonts.bunny.net/css2?family=Poppins:wght@400;600");
+@import url("https://fonts.bunny.net/css2?family=Open+Sans:wght@400");
+
+@media (max-width: 380px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/bg-mobile.svg");
+  }
+}
+
+@media (min-width: 380px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/bg-desktop.svg");
+  }
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  margin: 4rem 4rem;
+}
+
+header {
+}
+header img {
+}
+
+main {
+  display: flex;
+}
+
+main img {
+  width: 60rem;
+  margin-top: 5rem;
+  flex-direction: column;
+}
+
+main aside {
+  flex: 1;
+  margin-left: 4rem;
+  margin-top: 8rem;
+}
+
+main aside h1,
+p {
+  width: 36rem;
+}
+main h1 {
+  color: white;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+main p {
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+main button {
+  background-color: white;
+  padding: 1rem 1rem;
+  border-radius: 50px;
+  border-style: none;
+  margin-top: 1rem;
+  width: 15rem;
+
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.25rem;
+
+  color: hsl(257, 40%, 49%);
+}
+
+footer a {
+}
+footer a img {
+}

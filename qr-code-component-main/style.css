@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
+@import url("https://fonts.bunny.net/css2?family=Outfit:wght@400;600&display=swap");
 
 body {
   background: hsl(212, 45%, 89%);
@@ -33,6 +33,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 3%);
 }
 
 .card img {
