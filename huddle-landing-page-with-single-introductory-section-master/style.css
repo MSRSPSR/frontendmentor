@@ -6,7 +6,6 @@ body {
   margin: 4rem 4rem;
 }
 
-
 main aside h1 {
   color: white;
   font-family: "Poppins";
@@ -34,7 +33,23 @@ main button {
   color: hsl(257, 40%, 49%);
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+footer a i {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  max-width: 50%;
+  color: white;
+  padding: 1.2rem;
+}
 @media (max-width: 380px) {
+  header img {
+    width: 4rem;
+  }
   body {
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,10 +83,18 @@ main button {
 @media (min-width: 380px) {
   body {
     background-repeat: no-repeat;
-    background-size: cover;
     background-image: url("./images/bg-desktop.svg");
+    background-size: cover;
   }
 
+  footer {
+    display: flex;
+    justify-content: right;
+    margin-right: 40rem;
+  }
+
+  footer a {
+  }
   main h1 {
     font-size: 3rem;
   }
@@ -84,27 +107,28 @@ main button {
     margin-top: 5rem;
     flex-direction: column;
   }
-main aside h1,
-p {
-  width: 36rem;
-}
-main {
-  display: flex;
-}
 
-main aside {
-  flex: 1;
-  margin-left: 4rem;
-  margin-top: 8rem;
-}
+  main aside h1,
+  p {
+    width: 36rem;
+  }
 
-main aside h1,
-p {
-  width: 36rem;
-}
+  main {
+    display: flex;
+  }
 
+  main aside {
+    flex: 1;
+    margin-left: 4rem;
+    margin-top: 8rem;
+  }
+
+  main aside h1,
+  p {
+    width: 36rem;
+  }
+}
 footer a {
 }
 footer a img {
 }
-
